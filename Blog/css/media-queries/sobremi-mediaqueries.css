@@ -1,0 +1,178 @@
+@media(min-width: 400px){
+
+    header .personal-section picture{
+        width: 90%;
+        height: 150px;
+    }
+    
+    header .personal-section picture img{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    header .personal-section article{
+        width: 90%;
+        height: auto;
+    }
+
+    main .main-blog-post .blog-post--cover{
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+
+@media (min-width: 600px ) {
+        header .personal-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 50px 25px;
+        background-color: var(--D-principal);
+}
+
+main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+
+main .main-blog-post{
+    margin: 0 auto;
+  } 
+    main .main-last-news{
+        grid-column-start: 1;
+        grid-column-end: 3 ;
+    }
+    main .main-blog-post{
+        width: 90%;
+        height: 500px;
+    }
+
+    main .main-blog-post .blog-post--cover{
+        margin-bottom: 10px;
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+        
+
+        footer .footer-section {
+            flex-direction: row;
+            align-items: center;
+            height: 140px;
+         }
+         
+         footer div p{
+            font-size: 12px;
+        }
+         .footer-section .carta{
+             width: 35%;
+         }
+}
+
+
+
+@media (min-width: 1000px){
+
+    header .personal-section picture{
+        width: 90%;
+        height: 290px;
+    }
+    
+    header .personal-section picture img{
+        width: 100%;
+        height: 290px;
+        object-fit: cover;
+    }
+
+    .nav-ul--icon li{
+        width: 30px;
+        height: 30px;
+        list-style: none;
+    }
+   
+    .nav-ul--icon li a img{
+        width: 30px;
+        height:30px;
+        object-fit: cover;
+    }
+
+    picture{
+        width: 190px;
+        height: 50px;
+    }
+    
+      picture img{
+         width: 190px;
+         height: 50px;
+     }
+    
+
+     .header-menu li a{
+       font-size: 25px;
+    }
+
+    header .personal-section article h1{
+        font-size: 32px;
+    }
+    
+    header .personal-section article p{
+        font-size: 18px;
+    }
+
+    main .main-last-news p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    main .main-blog-post .blog-post--text h3{
+        font-size: 20px;
+    }
+    
+    main .main-blog-post .blog-post--text p{
+        font-size: 18px;
+    }
+
+    main .main-blog-post button{
+        width: 150px;
+        height: 35px;
+    }
+    
+    main .main-blog-post button a{
+        font-size: 18px;
+    }
+   
+    main .main-blog-post{
+        width: 90%;
+        height: 600px;
+    }
+
+
+    
+    .footer-section .carta picture{
+        width: 90px;
+        height: 90px;
+    }
+    
+    .footer-section .carta picture img{
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+    }
+
+    footer .footer-copyright p{
+        font-size: 14px;
+    }
+
+    .footer-section .carta p:first-child a{
+        font-size: 20px;
+    }
+    
+    .footer-section .carta p:nth-child(2){
+        font-size: 18px;
+    }
+}

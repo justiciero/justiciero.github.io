@@ -1,0 +1,221 @@
+@media (min-width: 325px){
+
+    .header-section picture{
+        width: 90%;
+    }
+    
+    .header-section picture img{
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 400px){
+
+    main .main-blog-post .blog-post--cover{
+        margin-bottom: 10px;
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+
+
+@media (min-width: 600px){
+
+    .header-section picture{
+        width: 90%;
+        height: 370px;
+    }
+    
+    .header-section picture img{
+        height: 370px;
+        width: 100%;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        align-content: center;
+    }
+
+    main .main-last-news{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    main .main-blog-post{
+      margin: 0 auto;
+    } 
+    
+    main .main-blog-post .blog-post--cover{
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+    }
+    footer div p{
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 1000px){
+
+    .nav-ul--icon li{
+        width: 30px;
+        height: 30px;
+        list-style: none;
+    }
+   
+    .nav-ul--icon li a img{
+        width: 30px;
+        height:30px;
+        object-fit: cover;
+    }
+
+    picture{
+        width: 190px;
+        height: 50px;
+    }
+    
+      picture img{
+         width: 190px;
+         height: 50px;
+     }
+    
+
+     .header-menu li a{
+       font-size: 25px;
+    }
+   
+
+    .header-section span h3{
+        font-size: 26px;
+        }
+    
+        .header-section .section-text h1{
+        font-size: 36px;
+        }
+    
+        .header-section .section-text p{
+        font-size: 25px;
+        line-height: 25px;
+        }
+        
+
+    .header-section picture{
+        width: 90%;
+        height: 370px;
+    }
+    
+    .header-section picture img{
+        height: 370px;
+        width: 100%;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-content: center;
+    }
+
+    main .main-last-news{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    main .main-last-news p{
+        font-size: 18px;
+    }
+
+    main .main-blog-post{
+      margin: 0 auto;
+    } 
+    
+    main .main-blog-post .blog-post--cover{
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+    }
+
+    main .main-blog-post .blog-post--text h3{
+        font-size: 20px;
+    }
+    
+    main .main-blog-post .blog-post--text p{
+        font-size: 18px;
+    }
+
+    main .main-blog-post button{
+        width: 150px;
+        height: 35px;
+    }
+    
+    main .main-blog-post button a{
+        font-size: 18px;
+    }
+
+    footer{
+        height: 90px;
+    }
+    footer div{
+        height: 60px;
+    }
+
+    footer div p{
+        font-size: 24px;
+    }
+  
+}
+
+
+@media (min-width: 1400px){
+
+    
+    .header-section span h3{
+    font-size: 28px;
+    }
+
+    .header-section .section-text h1{
+    font-size: 40px;
+    }
+
+    .header-section .section-text p{
+    font-size: 24px;
+    }
+    
+    button a{
+        font-size: 22px;
+    }
+
+    .header-section picture{
+        width: 95%;
+    }
+    
+    .header-section picture img{
+        width: 100%;
+    }
+
+    main .main-last-news p{
+        font-size: 23px;
+    }
+
+    main .main-blog-post .blog-post--text h3{
+        font-size: 24px;
+    }
+    
+    main .main-blog-post .blog-post--text p{
+        font-size: 25px;
+    }
+
+    
+    main .main-blog-post button a{
+        font-size: 20px;
+    }
+
+    footer div p{
+        font-size: 18px;
+    }
+}
