@@ -50,6 +50,7 @@ font-family: 'Roboto Slab', serif;
      width: 100%;
      min-width: 320px;
   background-color: #23282d;
+  header: 100vh;
  }
 
  header nav{
