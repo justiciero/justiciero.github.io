@@ -1,0 +1,262 @@
+
+:root{
+    --A-pricinpal: #61f2f5;
+    --B-principal: #434a54;
+    --C-Principal: #e6e9ed;
+    --D-principal: #656d78;
+    --E-principal: #ccd1d9;
+    --F-principal: #23282d;
+
+    /* SSecundarios */
+    --A-secundario: #ac92ec; 
+    --B-secundario: #a0d468;
+
+    /* Fonts */
+    --Fuentes-primario: ;
+    --Fuentes-segundario: ;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    min-width: 320px;
+}
+
+header nav{
+   width: 100%;
+   height: 10vh;
+   background-color: var(--B-secundario);
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   min-width: 320px;
+}
+
+.nav-ul--icon{
+    display: flex;
+    gap: 10px;
+    margin-right: 30px;
+}
+
+.nav-ul--icon li{
+    width: 20px;
+    height: 20px;
+    list-style: none;
+}
+
+.nav-ul--icon li a img{
+    width: 20px;
+    height:20px;
+    object-fit: cover;
+}
+
+picture{
+    width: 150px;
+    height: 30px;
+}
+
+.header-menu{
+    min-width: 320px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+
+picture img{
+    width: 140px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.header-menu li{
+    list-style: none;
+}
+.header-menu li a{
+    color: var(--B-principal);
+   font-family: 'Inter', sans-serif;
+}
+
+header .personal-section{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: var(--D-principal);
+}
+
+header .personal-section picture{
+    width: 250px;
+    height: 150px;
+}
+
+header .personal-section picture img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+header .personal-section article{
+    width: 250px;
+    height: auto;
+}
+
+header .personal-section article h1{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header .personal-section article p{
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+}
+
+main{
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .main-last-news{
+    width: 90%;
+    margin: 30px auto;
+    border-bottom: 1px solid var(--B-principal);
+}
+
+main .main-last-news h3{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main .main-blog-post{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .main-blog-post .blog-post--cover{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+}
+
+.cover1{
+    background-image: url("/Asset/img/post-1.png");
+}
+
+.cover2{
+    background-image: url("/Asset/img/post-2.png");
+}
+
+.cover3{
+    background-image: url("/Asset/img/post-3.png");
+}
+
+
+main .main-blog-post .blog-post--text{
+    width: 100%;
+    height: auto;
+}
+
+main .main-blog-post .blog-post--text h3{
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+main .main-blog-post .blog-post--text p{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+main .main-blog-post button{
+    align-self: flex-start;
+    width: 100px;
+    height: 30px;
+    border: 2px solid var(--B-secundario) ;
+    margin: 20px 0;
+    background-color: #ffffff ;
+}
+
+main .main-blog-post button a{
+   text-decoration: none;
+   color: var(--D-principal);
+}
+
+main .main-blog-post button:hover{
+  cursor: pointer; 
+  background-color: var(--B-secundario); 
+ }
+
+ main ,.main-blog-post button a:hover{
+     color: var(--F-principal)
+ }
+
+ footer{
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background-color: var(--B-secundario);
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 170px;
+    background-color: var(--C-Principal);
+}
+
+.footer-section .carta{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-section .carta picture{
+    width: 40px;
+    height: 40px;
+}
+
+.footer-section .carta picture img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.footer-section .carta p:first-child a{
+    color: var(--B-principal);
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;;
+}
+
+.footer-section .carta p:nth-child(2){
+    color: var(--D-principal);
+    font-size: 12px;
+    font-family: 'Quicksand', sans-serif
+}
+
+footer .footer-copyright{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: var(--B-principal);
+}
+
+footer .footer-copyright p{
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 9px;
+    font-family: 'Roboto Mono', monospace;
+}
