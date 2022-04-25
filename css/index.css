@@ -85,7 +85,7 @@ font-family: 'Roboto Slab', serif;
      background-image: url("/Asset/img/new-banner.jpg");
      background-size: cover;
      background-position: center;
-     text-align: center;
+     text-align: flex-end;
  }
 
  
