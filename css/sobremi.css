@@ -122,6 +122,7 @@ header .personal-section article p{
 
 main{
     min-width: 320px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -140,31 +141,11 @@ main .main-last-news h3{
 
 main .main-blog-post{
     width: 90%;
-    height: 300px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-main .main-blog-post .blog-post--cover{
-    margin-bottom: 10px;
-    width: 100%;
-    height: 150px;
-    background-size: cover;
-}
-
-.cover1{
-    background-image: url("/Asset/img/post-1.png");
-}
-
-.cover2{
-    background-image: url("/Asset/img/post-2.png");
-}
-
-.cover3{
-    background-image: url("/Asset/img/post-3.png");
-}
-
 
 main .main-blog-post .blog-post--text{
     width: 100%;
@@ -173,6 +154,7 @@ main .main-blog-post .blog-post--text{
 
 main .main-blog-post .blog-post--text h3{
     font-size: 16px;
+    margin-bottom: 15px;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -181,82 +163,85 @@ main .main-blog-post .blog-post--text p{
     margin-bottom: 5px;
 }
 
-main .main-blog-post button{
+main .blog-post--a{
     align-self: flex-start;
     width: 100px;
     height: 30px;
-    border: 2px solid var(--B-secundario) ;
-    margin: 20px 0;
+    border-bottom: 2px solid var(--B-secundario) ;
+    margin: 5px 0 40px;
     background-color: #ffffff ;
 }
 
-main .main-blog-post button a{
+main .blog-post--a a{
    text-decoration: none;
    color: var(--D-principal);
 }
 
-main .main-blog-post button:hover{
+main .blog-post--a:hover{
   cursor: pointer; 
   background-color: var(--B-secundario); 
  }
 
- main ,.main-blog-post button a:hover{
+ main .blog-post--a a:hover{
      color: var(--F-principal)
  }
 
- footer{
-    width: 100%;
-    min-width: 320px;
-    height: auto;
-    background-color: var(--B-secundario);
-}
 
-.footer-section{
+
+ .contact-section{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
     height: 170px;
     background-color: var(--C-Principal);
 }
 
-.footer-section .carta{
+.contact-section .carta{
+    width: 90%;
     display: flex;
-    gap: 10px;
+    align-self: center;
+    gap: 8px;
 }
 
-.footer-section .carta picture{
+.contact-section .carta picture{
     width: 40px;
     height: 40px;
 }
 
-.footer-section .carta picture img{
+.contact-section .carta picture img{
     width: 40px;
     height: 40px;
     object-fit: cover;
 }
 
-.footer-section .carta p:first-child a{
+.contact-section .carta p:first-child a{
     color: var(--B-principal);
     font-size: 16px;
     font-family: 'DM Sans', sans-serif;;
 }
 
-.footer-section .carta p:nth-child(2){
+.contact-section .carta p:nth-child(2){
     color: var(--D-principal);
     font-size: 12px;
     font-family: 'Quicksand', sans-serif
 }
 
-footer .footer-copyright{
+
+ footer{
     width: 100%;
-    height: 30px;
+    min-width: 320px;
+    height: auto;
+    margin-top: 40px;
+    background-color: var(--B-secundario);
     text-align: center;
-    background-color: var(--B-principal);
 }
 
+
 footer .footer-copyright p{
-    margin-top: 10px;
-    padding-top: 10px;
+    padding: 20px 0 20px;
     font-size: 9px;
     font-family: 'Roboto Mono', monospace;
 }
