@@ -71,6 +71,10 @@
 
 @media (min-width: 1024px){
 
+    header nav{
+        justify-content: end;
+     }
+
     .nav-ul--icon li{
         width: 30px;
         height: 30px;

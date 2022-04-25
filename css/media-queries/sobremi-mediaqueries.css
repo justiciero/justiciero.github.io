@@ -69,6 +69,10 @@ main .main-blog-post{
 
 @media (min-width: 1000px){
 
+
+    header nav{
+        justify-content: end;
+     }
     header .personal-section picture{
         width: 90%;
         height: 290px;

@@ -33,7 +33,7 @@ header nav{
    height: 10vh;
    background-color: var(--B-secundario);
    display: flex;
-   justify-content: end;
+   justify-content: center;
    align-items: center;
    min-width: 320px;
 }
@@ -84,11 +84,12 @@ picture img{
 
 header .personal-section{
     width: 100%;
-    height: 400px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 25px 0;
     gap: 20px;
     background-color: var(--D-principal);
 }
@@ -111,6 +112,7 @@ header .personal-section article{
 
 header .personal-section article h1{
     font-size: 28px;
+    margin-bottom: 10px;
     font-weight: bold;
     font-family: 'Roboto Mono', monospace;
 }
